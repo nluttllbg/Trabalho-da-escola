@@ -1,0 +1,6 @@
+{
+  "name": "AGIJ FERT - Nutrição Vegetal e Fertilizantes Especiais",
+  "description": "Plataforma de nutrição vegetal, fertilizantes especiais, condicionadores de solo e bioestimulantes para lavouras do Cerrado em Sorriso-MT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

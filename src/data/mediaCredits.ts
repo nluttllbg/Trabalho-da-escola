@@ -1,0 +1,160 @@
+import { MediaCredit } from '../types';
+
+export const MEDIA_CREDITS: MediaCredit[] = [
+  {
+    id: 'hero-combine-soy',
+    usageContext: 'Hero Banner Principal / Colheita de Soja em Alta Definição',
+    title: 'Colheitadeira em Lavouras de Soja no Cerrado',
+    imageUrl: 'https://images.pexels.com/photos/13821931/pexels-photo-13821931.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+    creatorName: 'Dan Hamill',
+    creatorUrl: 'https://www.pexels.com/@dan-hamill-144328',
+    sourcePlatform: 'Pexels',
+    sourceUrl: 'https://www.pexels.com/photo/green-combine-harvester-in-the-soybeans-field-13821931/',
+    license: 'Pexels Free Commercial License (Uso Comercial Permitido)',
+    altText: 'Colheitadeira moderna trabalhando em lavoura de soja sob céu límpido'
+  },
+  {
+    id: 'sunset-farmland',
+    usageContext: 'Visão Geral do Cerrado / Paisagem Rural em Sorriso-MT',
+    title: 'Horizonte Rural e Pôr do Sol em Lavouras',
+    imageUrl: 'https://images.pexels.com/photos/18979035/pexels-photo-18979035.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+    creatorName: 'Tom Fisk',
+    creatorUrl: 'https://www.pexels.com/@tomfisk',
+    sourcePlatform: 'Pexels',
+    sourceUrl: 'https://www.pexels.com/photo/field-and-farm-in-the-valley-18979035/',
+    license: 'Pexels Free Commercial License (Uso Comercial Permitido)',
+    altText: 'Lavouras produtivas ao entardecer com relevo plano típico do Mato Grosso'
+  },
+  {
+    id: 'aerial-farmland-green',
+    usageContext: 'Seção de Sustentabilidade e Solos Vivos',
+    title: 'Vista Aérea de Grande Propriedade Rural Produtiva',
+    imageUrl: 'https://images.pexels.com/photos/9324755/pexels-photo-9324755.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+    creatorName: 'Tom Fisk',
+    creatorUrl: 'https://www.pexels.com/@tomfisk',
+    sourcePlatform: 'Pexels',
+    sourceUrl: 'https://www.pexels.com/photo/a-photography-of-a-farmland-9324755/',
+    license: 'Pexels Free Commercial License (Uso Comercial Permitido)',
+    altText: 'Fotografia aérea de extensas lavouras verdes e preservação'
+  },
+  {
+    id: 'soil-fertile-sprout',
+    usageContext: 'Linha de Condicionadores de Solo & Enraizadores',
+    title: 'Muda Saudável Emergindo em Solo Fértil Estruturado',
+    imageUrl: 'https://images.pexels.com/photos/7768447/pexels-photo-7768447.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+    creatorName: 'Atlantic Ambience',
+    creatorUrl: 'https://www.pexels.com/@freestockpro',
+    sourcePlatform: 'Pexels',
+    sourceUrl: 'https://www.pexels.com/photo/small-sprout-growing-in-soil-in-nature-7768447/',
+    license: 'Pexels Free Commercial License (Uso Comercial Permitido)',
+    altText: 'Plântula com raízes vigorosas brotando de solo rico em matéria orgânica'
+  },
+  {
+    id: 'hands-soil-nutrition',
+    usageContext: 'Módulo de Nutrição de Raiz e Matéria Orgânica',
+    title: 'Broto Verde em Solo Rico em Nutrientes',
+    imageUrl: 'https://images.pexels.com/photos/7944397/pexels-photo-7944397.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+    creatorName: 'Ron Lach',
+    creatorUrl: 'https://www.pexels.com/@ron-lach',
+    sourcePlatform: 'Pexels',
+    sourceUrl: 'https://www.pexels.com/photo/close-up-shot-of-plant-on-soil-7944397/',
+    license: 'Pexels Free Commercial License (Uso Comercial Permitido)',
+    altText: 'Close-up de planta jovem com vigor e sanidade em terra fértil'
+  },
+  {
+    id: 'hands-holding-fertilizer',
+    usageContext: 'Card do Produto Fertilizante Granulado de Alta Eficiência',
+    title: 'Nutrientes Minerais Granulados Quelatados',
+    imageUrl: 'https://images.pexels.com/photos/31673795/pexels-photo-31673795.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+    creatorName: 'Kashif Shah',
+    creatorUrl: 'https://www.pexels.com/@kkwritesofficial',
+    sourcePlatform: 'Pexels',
+    sourceUrl: 'https://www.pexels.com/photo/hands-holding-granular-fertilizer-outdoors-31673795/',
+    license: 'Pexels Free Commercial License (Uso Comercial Permitido)',
+    altText: 'Mãos segurando fertilizante mineral uniforme com liberação gradual'
+  },
+  {
+    id: 'golden-corn-crop',
+    usageContext: 'Página da Cultura: Milho Safrinha de Alto Rendimento',
+    title: 'Lavoura de Milho com Espigas Formadas e Saudáveis',
+    imageUrl: 'https://images.pexels.com/photos/30875360/pexels-photo-30875360.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+    creatorName: 'Isabella Her',
+    creatorUrl: 'https://www.pexels.com/@isabella-her-2149687972',
+    sourcePlatform: 'Pexels',
+    sourceUrl: 'https://www.pexels.com/photo/golden-cornfield-under-clear-blue-sky-30875360/',
+    license: 'Pexels Free Commercial License (Uso Comercial Permitido)',
+    altText: 'Lavoura de milho safrinha dourada e viçosa sob sol pleno'
+  },
+  {
+    id: 'corn-cobs-ground',
+    usageContext: 'Detalhe Técnico: Enchimento de Grãos e Peso Específico (Milho)',
+    title: 'Espigas de Milho Bem Nutridas e Grãos Densos',
+    imageUrl: 'https://images.pexels.com/photos/13094647/pexels-photo-13094647.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+    creatorName: 'Mark Stebnicki',
+    creatorUrl: 'https://www.pexels.com/@nc-farm-bureau-mark',
+    sourcePlatform: 'Pexels',
+    sourceUrl: 'https://www.pexels.com/photo/fresh-yellow-corns-with-dried-husk-on-ground-13094647/',
+    license: 'Pexels Free Commercial License (Uso Comercial Permitido)',
+    altText: 'Espigas de milho com granação completa e alto peso específico'
+  },
+  {
+    id: 'cotton-field-tractor',
+    usageContext: 'Página da Cultura: Algodão no Médio-Norte de Mato Grosso',
+    title: 'Colheita e Manejo de Lavoura de Algodoeiro',
+    imageUrl: 'https://images.pexels.com/photos/13924875/pexels-photo-13924875.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+    creatorName: 'Mark Stebnicki',
+    creatorUrl: 'https://www.pexels.com/@nc-farm-bureau-mark',
+    sourcePlatform: 'Pexels',
+    sourceUrl: 'https://www.pexels.com/photo/a-tractor-harvesting-cotton-13924875/',
+    license: 'Pexels Free Commercial License (Uso Comercial Permitido)',
+    altText: 'Trator operando em lavoura de algodão com capulhos abertos'
+  },
+  {
+    id: 'farmer-field-inspection',
+    usageContext: 'Consultoria Agronômica In Loco e Laudos Técnicos em Sorriso',
+    title: 'Agrônomo Avaliando Sanidade e Desenvolvimento de Lavoura',
+    imageUrl: 'https://images.pexels.com/photos/37201245/pexels-photo-37201245.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+    creatorName: 'Mark Stebnicki',
+    creatorUrl: 'https://www.pexels.com/@nc-farm-bureau-mark',
+    sourcePlatform: 'Pexels',
+    sourceUrl: 'https://www.pexels.com/photo/farmer-tending-crops-in-vast-open-field-37201245/',
+    license: 'Pexels Free Commercial License (Uso Comercial Permitido)',
+    altText: 'Especialista em campo conferindo emergência e nutrição de plântulas'
+  },
+  {
+    id: 'drone-tech-field',
+    usageContext: 'Agricultura de Precisão e Tecnologia de Aplicação Foliar',
+    title: 'Monitoramento Aéreo e Aplicação de Precisão',
+    imageUrl: 'https://images.pexels.com/photos/34182409/pexels-photo-34182409.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+    creatorName: 'Magda Ehlers',
+    creatorUrl: 'https://www.pexels.com/@magda-ehlers-pexels',
+    sourcePlatform: 'Pexels',
+    sourceUrl: 'https://www.pexels.com/photo/farmers-utilizing-drone-technology-in-fields-34182409/',
+    license: 'Pexels Free Commercial License (Uso Comercial Permitido)',
+    altText: 'Produtores utilizando controle tecnológico e telemetria no campo'
+  },
+  {
+    id: 'laboratory-research',
+    usageContext: 'Laboratório e Controle Rigoroso de Qualidade dos Fertilizantes',
+    title: 'Análise Química e Controle de Matérias-Primas',
+    imageUrl: 'https://images.pexels.com/photos/8531346/pexels-photo-8531346.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+    creatorName: 'olia danilevich',
+    creatorUrl: 'https://www.pexels.com/@olia-danilevich',
+    sourcePlatform: 'Pexels',
+    sourceUrl: 'https://www.pexels.com/photo/a-person-holding-an-empty-test-tube-8531346/',
+    license: 'Pexels Free Commercial License (Uso Comercial Permitido)',
+    altText: 'Cientista em laboratório realizando análise e controle de fertilidade'
+  },
+  {
+    id: 'freight-logistics-truck',
+    usageContext: 'Logística Ágil e Entregas Direto na Fazenda (BR-163)',
+    title: 'Frota e Entrega Estratégica para o Centro-Oeste',
+    imageUrl: 'https://images.pexels.com/photos/8994766/pexels-photo-8994766.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+    creatorName: 'Braeson Holland',
+    creatorUrl: 'https://www.pexels.com/@braeson-holland-3640662',
+    sourcePlatform: 'Pexels',
+    sourceUrl: 'https://www.pexels.com/photo/a-truck-on-the-road-8994766/',
+    license: 'Pexels Free Commercial License (Uso Comercial Permitido)',
+    altText: 'Caminhão de carga rodoviária realizando transporte logístico'
+  }
+];
